@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monoton', cursive;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:black;
+    background-size:cover;
+    
+    background-position: center;
+    
+}
+.video-back{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: -2;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0, .2);
+}
+.retry{
+    border: none;
+    font-size: 20px;
+    margin-top: 1rem;
+    padding:0 10px;
+}
+a{
+    text-decoration: none;
+    color: #2bff00;
+    animation: animate 2s linear infinite;
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 30px;
+    color: #2bff00;
+    background: url(./img/nick-nice-dfvyCHzbA5g-unsplash.jpg);
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    text-shadow: 0 0 15px #56ff35,
+    0 0 25px #56ff35;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 5px #2bff00;
+    transition: .3s;
+   
+
+  
+}
+button:hover{
+    box-shadow:    0 0 20px 5px #2bff00,
+    0 0 30px 5px #2bff00,
+    0 0 40px 5px #2bff00;
+}
+@keyframes animate {
+    0%{
+        color: #2bff00;
+        text-shadow: 0 0 15px #56ff35,
+        0 0 25px #56ff35;
+   
+    }
+    39%{
+        color: #2bff00;
+        text-shadow: 0 0 15px #56ff35,
+        0 0 25px #56ff35;
+    }
+    40%{
+        color: #333;
+        text-shadow: 0 0 0 #333;
+    }
+    45%{
+        color: #2bff00;
+        text-shadow: 0 0 15px #56ff35,
+        0 0 25px #56ff35;
+    }
+    50%{
+        color: #333;
+        text-shadow: 0 0 0 #333;
+    }
+    55%{
+        color: #2bff00;
+        text-shadow: 0 0 15px #56ff35,
+        0 0 25px #56ff35;
+    }
+    60%{
+        color: #333;
+        text-shadow: 0 0 0 #333;
+    }
+    65%{
+        color: #2bff00;
+        text-shadow: 0 0 15px #56ff35,
+        0 0 25px #56ff35;
+    }
+    100%{
+       color: #2bff00;
+       text-shadow: 0 0 15px #56ff35,
+       0 0 25px #56ff35;
+    }
+}
+.quizbox{
+    box-shadow: 0 0 10px #2bff00,
+    0 0 20px #2bff00,
+    0 0 30px #2bff00;
+    width: 400px;
+    height: 500px;
+    color: #2bff00;
+    border-radius: 10px;
+    background: url(./img/nick-nice-dfvyCHzbA5g-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    padding:1rem;
+    position: relative;
+
+}
+.head-text{
+    border-bottom: 1px solid #2bff00;
+   padding-bottom: 1rem;
+
+}
+.question-random{
+    background: #2bff00;
+    color: #000;
+    margin-left: 10px;
+    width: max-content;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.question-text{
+margin-top: 1rem;
+width: max-content;
+}
+.answer_result{
+    margin-left: 10px;
+}
+.salom{
+    display: flex;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px #2bff00;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.answer-text{
+    margin-top: 0rem;
+    padding-left: 1rem;
+    display: flex;
+}
+.salom:active{
+    background: #2bff00;
+    color: #000;
+   
+}
+.results{
+    margin-top: 2rem;
+}
+.icon{
+    margin-left: .5rem;
+    font-size: 20px;
+    text-shadow: 0 0 15px #2bff00;
+    margin-bottom: 1rem;
+}
+.box{
+    background: url(./img/nick-nice-dfvyCHzbA5g-unsplash.jpg);
+    background-size: contain;
+    box-shadow: 0 0 10px #2bff00,
+    0 0 20px #2bff00,
+    0 0 30px #2bff00;
+    color: #2bff00;
+    border-radius: 10px;
+    display: flex;
+   align-items: center;
+   padding: 1rem;
+    width: 300px;
+    text-shadow: 0 0 15px #56ff35,
+    0 0 25px #56ff35;
+    height: 300px;
+    flex-direction: column;
+
+}
+.fa-crown{
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.finish{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.correct-text{
+    margin-bottom: 10px;
+}
+.click{
+    display: flex;
+    width: 400px;
+}
+#head-timer{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 20px;
+}
+#finish{
+    display: none;
+}
