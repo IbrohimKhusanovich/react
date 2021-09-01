@@ -1,0 +1,57 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-size: 24px;
+    padding: 15px 30px;
+    margin: 4px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #f17b0e;
+
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #f79d53;
+}
+
+.btn:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Tag {
+    background: #EDEDED;
+    border-radius: 5px;
+    margin: 4px;
+    color:#000;
+    padding: 10px 20px;
+}
+
+.btnOutlined {
+    background: #FFF2E7;
+    border: 1px solid #F17B0E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 4px;
+    line-height: 19px;
+    transition: .3s;
+    /* identical to box height */
+    color: #21140A;
+}
+
+.btnOutlined:hover {
+    background: rgb(255, 226, 197)
+}
+@media screen and (max-width:1024px) {
+    .btn{
+        padding: 15px 80px;
+    }
+}

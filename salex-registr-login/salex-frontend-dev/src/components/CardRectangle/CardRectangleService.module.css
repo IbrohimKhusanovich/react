@@ -1,0 +1,229 @@
+.cardServiceInformation{
+ display: flex;
+ margin-top: 30px;
+ width: 90% !important;
+ justify-content: space-between;
+}
+.cardTexts div{
+width: 100%;
+}
+.cardProductAdress {
+ margin-top: 10px;
+ font-weight: 500;
+ font-size: 16px;
+ color: #b55d19;
+ display: block;
+}
+.cardPrice,.cardSlash{
+ font-weight: 600;
+ font-size: 28px;
+}
+.box{
+ width: 40%;
+ height: 300px;
+}
+.cardBox {
+ display: flex;
+ max-width:1282px;
+ width: 100%;
+ margin: 16px 5%;
+ height: 339px;
+ background-color: #fff2e7;
+ border-radius: 4px;
+}
+.cardInformation {
+ padding: 40px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.cardTitle {
+ font-weight: 600;
+ font-size: 36px;
+}
+.cardTexts {
+ display: flex;
+ justify-content: space-between;
+}
+.cardPriceAndBtn {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+}
+.cardData {
+ font-weight: 400;
+ font-size: 20px;
+ height: max-content;
+ color: #21140a50;
+}
+.cardBtn {
+ padding: 15px 25px;
+ font-size: 20px;
+ font-weight: 500;
+ border: 1px solid #ff933b;
+ background: #ffffff30;
+}
+.cardPrices{
+ display: flex;
+}
+@media only screen and (max-width: 1700px) {
+ .cardBox{
+  height: 300px;
+ }
+ .cardTitle{
+  font-size: 30px;
+ }
+ .cardPrice,.cardSlash{
+  font-size: 24px;
+ }
+}
+@media only screen and (max-width: 1500px) {
+ .cardBox{
+  height: 270px;
+ }
+ .cardTitle{
+  font-size: 27px;
+ }
+ .cardPrice,.cardSlash{
+  font-size: 20px;
+ }
+
+ .cardBtn{
+  font-size: 17px;
+  padding: 12px 17px;
+}
+.cardServiceInformation{
+ margin-top: 20px;
+}
+.cardInformation{
+ padding: 30px;
+}
+}
+@media only screen and (max-width: 1200px) {
+ .cardBox{
+  height: 240px;
+ }
+ .cardInformation{
+  padding: 25px;
+ }
+ .cardTitle{
+  font-size: 24px;
+ }
+ .cardPrice,.cardSlash,.cardData{
+  font-size: 13px;
+ }
+ .cardProductAdress{
+  font-size: 14px;
+ }
+ .cardBtn{
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+}
+@media only screen and (max-width: 992px) {
+ .cardBox{
+  height: 200px;
+ }
+
+ .cardTitle{
+  font-size: 20px;
+ }
+ .cardPrice,.cardSlash,.cardData{
+  font-size: 12px;
+ }
+ .cardProductAdress{
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+ }
+ .cardBtn{
+  font-size: 11px;
+  padding: 7px 10px;
+}
+}
+@media only screen and (max-width: 700px) {
+ .cardBox{
+  height: 190px;
+ }
+ .cardTitle{
+  font-size: 20px;
+ }
+ .cardPrice{
+  font-size: 14px;
+ }
+ .cardSlash{
+  display: none;
+ }
+ .cardPrices{
+  display: block;
+ }
+ .cardData{
+  display: none;
+ }
+ .cardServiceInformation{
+  width: 100% !important;
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+ }
+ .cardProductAdress p{
+ width: max-content;
+ }
+ .cardProductAdress{
+  font-size: 13px;
+ }
+ .cardBtn{
+  font-size: 11px;
+  padding: 7px 10px;
+}
+.box{
+ display: none;
+}
+.cardInformation{
+ padding: 20px;
+}
+}
+@media only screen and (max-width: 500px) {
+ .cardBox{
+  height: 180px;
+  margin: auto 2%;
+ }
+ .cardTitle{
+  font-size: 20px;
+ }
+ .cardPrice,.cardSlash,.cardData{
+  font-size: 12px;
+ }
+ .cardProductAdress{
+  font-size: 12px;
+ }
+ .cardBtn{
+  font-size: 9px;
+  padding: 5px 14px;
+}
+.cardServiceInformation{
+ width: 100% !important;
+}
+}
+@media only screen and (max-width: 400px) {
+ .cardBox{
+  height: 160px;
+ }
+ .cardTitle{
+  font-size: 15px;
+ }
+ .cardPrice,.cardSlash,.cardData{
+  font-size: 11px;
+ }
+ .cardProductAdress{
+  font-size: 9px;
+ }
+ .cardBtn{
+  font-size: 6px;
+  padding: 5px 12px;
+}
+
+}

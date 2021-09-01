@@ -1,0 +1,134 @@
+.cardImg {
+  height: 100%;
+  max-width: 340px;
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.cardTexts div{
+ width: 100%;
+}
+.cardProductAdress {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #b55d19;
+  display: flex;
+}
+.cardPrice{
+  font-weight: 600;
+  font-size: 28px;
+}
+.cardBox {
+  display: flex;
+  width: 1282px;
+  width: calc(100vw - 25%);
+  margin: 16px 0;
+  height: 340px;
+  background-color: #fff2e7;
+  border-radius: 4px;
+}
+.cardInformation {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardTitle {
+  font-weight: 600;
+  font-size: 36px;
+}
+.cardTexts {
+  display: flex;
+  justify-content: space-between;
+}
+.cardPriceAndBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cardData {
+  font-weight: 400;
+  font-size: 20px;
+  color: #21140a50;
+}
+.cardBtn {
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #ff933b;
+  background: #ffffff30;
+}
+.cardPrices{
+ display: flex;
+}
+@media only screen and (max-width: 1500px) {
+  .cardTitle,.cardTitleS {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .cardTitle,
+  .cardPrice {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .cardProductAdress,
+  .cardData {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .cardBox {
+    width: 270px;
+    display: block;
+    max-height: 332px;
+    padding: 15px;
+    position: relative;
+    border: 1px solid #f17b0e;
+  }
+  .cardData,.cardPrice {
+    position: absolute;
+    bottom: 15px;
+  }
+  .cardImg {
+    height: auto;
+  }
+  .cardInformation {
+    padding: 0;
+  }
+  .cardPriceAndBtn {
+    justify-content: flex-end;
+  }
+  .cardBtn {
+    display: none;
+  }
+  .cardTitle,
+  .cardPrice {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .cardProductAdress,
+  .cardData {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .cardBox {
+    width: 178px;
+    padding: 10px;
+    height: 224px;
+    margin: 9px;
+  }
+  .cardTitle,
+  .cardPrice {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .cardProductAdress,
+  .cardData {
+    font-size: 8px;
+  }
+}

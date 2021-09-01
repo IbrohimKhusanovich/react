@@ -1,0 +1,70 @@
+.yellowBorder:hover {
+    background: transparent;
+    color: #F17B0E;
+    border-bottom: 1px solid #F17B0E;
+}
+
+.Card {
+    background: #FFF2E7;
+    border: 1px solid #F17B0E;  
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.justify-around {justify-content: space-around;}
+.justify-evenly {justify-content: space-evenly;}
+.justify-between{justify-content: space-between}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.f {flex: auto;}
+.f-1 {flex: 1;}
+.f-2 {flex: 2;}
+.f-3 {flex: 3;}
+.f-4 {flex: 4;}
+.f-5 {flex: 5;}
+.f-6 {flex: 6;}
+.f-7 {flex: 7;}
+.f-8 {flex: 8;}
+.f-9 {flex: 9;}
+.f-10 {flex: 10;}
+.f-11 {flex: 11;}
+.f-12 {flex: 12;}
+
+.container {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {      
+    .container {
+        width: calc(100% - 150px);
+    }
+}
+
+@media only screen and (max-width: 768px) {      
+    .container {
+        width: calc(100% - 80px);
+    }
+}
+
+@media only screen and (max-width: 576px) {      
+    .container {
+        width: calc(100% - 10px);
+        margin: 5px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .justify-lg-between{justify-content: space-between!important}
+    .justify-lg-around {justify-content: space-around;}
+}
+
+@media only screen and (min-width: 1px) {
+    .justify-sm-between{justify-content: space-between}
+    .justify-sm-around {justify-content: space-around;}
+}

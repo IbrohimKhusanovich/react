@@ -1,0 +1,122 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+* {
+  font-family: Gilroy;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.forms {
+  background-color: #fff;
+  width: 500px;
+  padding: 0 13%;
+}
+
+.formInput {
+  width: 438px;
+  border-radius: 6px;
+  font-size: 20px;
+  border: 1px solid #9c9c9c;
+  background-color: #ededed;
+  margin-bottom: 25px;
+  padding: 18px;
+  outline: none;
+
+}
+.formInput:focus {
+  background-color: #fff9f3;
+  border: 1px solid #f17b0e;
+}
+.inputLabel {
+  display: block;
+  margin: 15px 0;
+  font-weight: 600;
+  line-height: 29px;
+  font-size: 24px;
+}
+.rememberMe {
+  display: block;
+  color: #808080;
+  font-size: 20px;
+  border-bottom: 1px solid #808080;
+  width: max-content;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btnConfirmation {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  width: 100%;
+  height: 6vh;
+}
+.noCompleted {
+  border: 1px solid tomato;
+}
+.displayNon {
+  display: none;
+  margin: 5px auto;
+}
+.error {
+  color: tomato;
+  display: flex;
+}
+.inputBox {
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  top: 50px;
+  right: 5%;
+  opacity: 0.7;
+}
+@media screen and (max-width: 1024px) {
+  .formInput {
+    padding: 14px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .forms {
+    padding: 5% 6%;
+    width: 100%;
+  }
+  .inputLabel {
+    font-size: 20px;
+  }
+  .inputCont {
+    width: 100%;
+  }
+
+  .btnConfirmation button {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    padding: 17px 70px;
+  }
+  .rememberMe {
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btnConfirmation button {
+    width: 100%;
+    position: relative;
+  }
+  .forms {
+    padding: 3% 6%;
+  }
+  .rememberMe {
+    margin-bottom: 25px;
+  }
+  .btnConfirmation div {
+    width: 100%;
+  }
+  .btnConfirmation {
+    width: 100%;
+    height: 11vh;
+    margin-bottom: 20px;
+  }
+}
