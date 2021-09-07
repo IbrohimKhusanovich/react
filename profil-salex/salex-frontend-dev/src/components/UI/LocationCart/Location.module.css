@@ -1,0 +1,55 @@
+.alertBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50%;
+    padding: 30px;
+}
+
+.description {
+    color: #808080;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.iconBox {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FF933B;
+    display: grid;
+    place-items: center;
+    transition: .3s;
+    box-shadow:
+      0 0 0 10px #ff933bd3,
+      0 0 0 20px #ff933bad,
+      0 0 0 30px #ff933b67;
+}
+
+.iconBox:hover {
+    box-shadow:
+      0 0 0 10px #fc9847d3,
+      0 0 0 20px #f8a765ad,
+      0 0 0 30px #c5814967;
+    cursor: pointer;
+}
+
+.iconBox img {
+    width: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .alertBox {
+        max-width: 100% !important;
+        padding: 15px;
+    }
+    .iconBox {
+        box-shadow:
+          0 0 0 5px #fc9847d3,
+          0 0 0 10px #f8a765ad,
+          0 0 0 15px #c5814967;
+    }
+}

@@ -1,0 +1,70 @@
+.CardBlock {
+    max-width: 20%;
+    margin: 10px 10px;
+    position: relative;
+}
+
+.CardBody {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+    height: 97%;
+    /* background: crimson !important; */
+}
+
+.Media{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.CardTitle {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #21140A;
+}
+
+.cardAddress {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    margin: 10px 0 50px 0;
+    color: #B55D19;
+}
+
+.DateAndPrice {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 95%;
+    font-weight: 600;
+    color: rgba(33, 20, 10, 0.5);
+}
+
+.price {
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+
+@media only screen and (max-width: 992px) {
+    .CardBlock {
+        max-width: 45% !important;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .CardBlock {
+        max-width: 100% !important;
+    }
+}

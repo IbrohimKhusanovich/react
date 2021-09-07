@@ -1,0 +1,44 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+.Input {
+    color: #6e6e6e;
+    background: #EDEDED;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    padding: 11px 7px;
+    margin: 10px auto;
+    min-width: 20%;
+    display: block;
+    width: 100%;
+
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 20px;
+}
+
+#text {
+    color: tomato;
+    display: flex;
+  }
+.Input::placeholder {
+    text-transform: capitalize;
+    color: #A5A5A5;
+}
+
+.inputBar {
+    display:block;
+}
+.Input:focus {
+    background-color: #fff9f3;
+    border: 1px solid #f17b0e;
+  }
+.inputBar label {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #21140A;
+}

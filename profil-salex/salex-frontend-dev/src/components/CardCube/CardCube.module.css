@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cardProductAdress,
+.cardDataAndPrice {
+  display: flex;
+}
+.mainCard {
+  width: 406px;
+  height: 472px;
+  position: relative;
+  min-height: max-content;
+  border-radius: 4px;
+  border: 1px solid #f17b0e;
+  padding: 20px;
+  padding-top: 17px;
+  background-color: #fff2e7;
+  transition: 0.3s;
+  margin: 16px;
+}
+.mainCard:active {
+  box-shadow: 0px 6px 30px 0px #b55d194d;
+}
+.cardImg {
+  width: 100%;
+  border-radius: 4px;
+}
+.cardProductAdress {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #b55d19;
+}
+.cardData{
+  font-weight: 400;
+  font-size: 16px;
+  color: #21140a50;
+}
+.cardPrice{
+  font-weight: 600;
+  font-size: 24px;
+  color: #21140a;
+}
+.cardTitle {
+  margin-top: 13px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.cardDataAndPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 88%;
+  bottom: 4%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mainCard {
+    width: 270px;
+    height: 332px;
+    padding: 15px;
+  }
+  .cardTitle,.cardPrice{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .cardProductAdress,.cardData{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mainCard {
+    width: 178px;
+    padding: 10px;
+    height: 224px;
+    margin: 9px;
+  }
+  .cardTitle,.cardPrice{
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .cardProductAdress,.cardData{
+    font-size: 8px;
+  }
+}
